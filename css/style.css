@@ -1,0 +1,62 @@
+#page1.ui-page{
+	background-color: #000;
+	/*background: url(../img/download.jpg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size:100% 100%;*/
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	opacity: 0.4;
+	letter-spacing: 3px;
+	font-size: 300%;
+	padding: 0;
+	line-height: 5px;
+}
+
+h4 {
+	text-align: center;
+	color: #fff;
+	opacity: 0.4;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 100%;
+	color: #fff;
+	font-weight: lighter; 
+}
+
+h6 {
+	color: #fff;
+	font-weight: lighter; 
+	line-height: 3px; 
+}
+
+#clock {
+	margin-top: 250px;
+	text-align: center;
+	color: #fff;
+	opacity: 0.4;
+	font-size: 200%;
+}
+
+.ui-footer {
+	border-style: none !important;
+}
+
+.ui-bar-b {
+	background-color: #000 !important;
+}
+
+.ui-bar {
+	z-index: 999 !important;
+	height: 65px;
+}
+
+
+
