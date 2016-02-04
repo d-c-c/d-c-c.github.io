@@ -8,6 +8,27 @@
        url('webfont.svg#svgFontName') format('svg'); 
 }*/
 
+@font-face {
+    font-family: 'adineue-bold-webfont';
+    src: url(fonts/adineue-bold-webfont.ttf)  format('truetype');
+}
+@font-face {
+    font-family: 'yeezy_tstar-bold-webfont';
+    src: url(fonts/yeezy_tstar-bold-webfont.ttf)  format('truetype');
+}
+@font-face {
+    font-family: 'yeezy_tstar-heavy-webfont';
+    src: url(fonts/yeezy_tstar-heavy-webfont.ttf)  format('truetype');
+}
+@font-face {
+    font-family: 'yeezy_tstar-regular-webfont';
+    src: url(fonts/yeezy_tstar-regular-webfont.ttf)  format('truetype');
+}
+@font-face {
+    font-family: 'yeezy_tstar-light-webfont';
+    src: url(fonts/yeezy_tstar-light-webfont.ttf)  format('truetype');
+}
+
 #page1.ui-page{
 	background-color: #000;
 /*	background: url(../img/download.jpg);
@@ -21,38 +42,43 @@
 h1 {
 	text-align: center;
 	color: #fff;
-	opacity: 0.4;
+	/*opacity: 0.4;*/
 	letter-spacing: 3px;
-	font-size: 300%;
+	font-size: 750%;
 	padding: 0;
-	line-height: 5px;
+	line-height: 2%;
+	font-family: 'yeezy_tstar-heavy-webfont', sans-serif;
 }
 
 h4 {
 	text-align: center;
 	color: #fff;
-	opacity: 0.4;
+	/*opacity: 0.4;*/
+	font-size: 140%;
 	letter-spacing: 3px;
+	font-family: 'yeezy_tstar-light-webfont', sans-serif;
 }
 
 h2 {
-	font-size: 100%;
+	font-size: 300%;
 	color: #fff;
-	font-weight: lighter; 
+	font-family: 'yeezy_tstar-light-webfont', sans-serif; 
 }
 
 h6 {
-	color: #fff;
-	font-weight: lighter; 
-	line-height: 3px; 
+	color: #fff;  
+	font-family: 'yeezy_tstar-light-webfont';
 }
 
 #clock {
-	margin-top: 250px;
+	margin-top: 150px;
 	text-align: center;
+	font-family: 'yeezy_tstar-regular-webfont', sans-serif;
 	color: #fff;
-	opacity: 0.4;
-	font-size: 200%;
+	/*opacity: 0.4;*/
+	font-size: 370%;
+	margin-left: -1%;
+	line-height: 80%;
 }
 
 .ui-footer {
