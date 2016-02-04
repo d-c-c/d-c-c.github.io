@@ -1,11 +1,11 @@
 #page1.ui-page{
-	background-color: #000;
-	/*background: url(../img/download.jpg);
+	/*background-color: #000;*/
+	background: url(../img/download.jpg);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-size:100% 100%;*/
+    background-size:100% 100%;
 }
 
 h1 {
