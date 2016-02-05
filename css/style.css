@@ -135,6 +135,10 @@ h6 {
 		width: 15%;
 	}
 
+	#social a {
+		font-size: 300%;
+	}
+
     #insta {
     	width: 25%;
     }
