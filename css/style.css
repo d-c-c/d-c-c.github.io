@@ -127,6 +127,10 @@ h6 {
     	background-color: #000 !important;
     }
 
+    #clock {
+    	margin-top: 500px;
+    }	
+
     #page1.ui-page {
     	margin-top: 10%;
     }
