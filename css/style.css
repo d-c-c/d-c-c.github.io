@@ -49,6 +49,10 @@
 	width: 14%;
 }
 
+#twitt {
+	width: 18%;
+}
+
 h1 {
 	text-align: center;
 	color: #fff;
@@ -155,6 +159,10 @@ h6 {
     #insta {
     	width: 25%;
     }
+
+    #twitt {
+		width: 30%;
+	}
 
     #dreamPNG {
 		margin-left: 39.5%;
