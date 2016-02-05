@@ -20,13 +20,13 @@
 }
 
 #page1.ui-page{
-	background-color: #000;
-/*	background: url(../img/Dream.Create.Conquer.jpg);
+	/*background-color: #000;*/
+	background: url(../img/Dream.Create.Conquer.jpg);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-size:100% 100%;*/
+    background-size:100% 100%;
 }
 
 #social {
@@ -107,7 +107,9 @@ h6 {
 }
 
 #dreamPNG {
-	margin-left: 35%
+	margin-left: 40.5%;
+	width: 15.5%;
+	margin-top: 6%;
 }
 
 .ui-btn {
@@ -116,11 +118,18 @@ h6 {
 	color: #fff;  
 }
 
+.about {
+	width: 14.5%;
+	font-size: 10px;
+	padding: 0;
+	margin: 0 0 2% 41.75%;
+}
+
 
 @media screen and (orientation: portrait) {
     .ui-mobile .ui-page {
         min-height: 0 !important;
-        vertical-align: center !important;
+        max-width: 100%;
     }	
 
     body {
@@ -128,11 +137,11 @@ h6 {
     }
 
     #clock {
-    	margin-top: 500px;
+    	margin-top: 400px;
     }	
 
     #page1.ui-page {
-    	margin-top: 10%;
+    	margin-top: 35%;
     }
 
     #social {
@@ -145,6 +154,17 @@ h6 {
 
     #insta {
     	width: 25%;
+    }
+
+    #dreamPNG {
+		margin-left: 39.5%;
+		width: 18.5%;
+	}
+
+    .about {
+    	margin: 0 0 2% 40%;
+    	width: 18%;
+
     }
 }
 
