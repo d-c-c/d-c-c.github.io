@@ -21,7 +21,7 @@
 
 #page1.ui-page{
 	/*background-color: #000;*/
-	background: url(../img/Dream.Create.Conquer.jpg);
+	background: url(../img/Dream.Create.Conquer2.jpg);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -113,7 +113,7 @@ h6 {
 #dreamPNG {
 	margin-left: 40.5%;
 	width: 15.5%;
-	margin-top: 13%;
+	margin-top: 8%;
 }
 
 .ui-btn {
@@ -123,10 +123,10 @@ h6 {
 }
 
 .about {
-	width: 14.5%;
+	width: 15.5%;
 	font-size: 10px;
 	padding: 0;
-	margin: 0 0 2% 41.75%;
+	margin: 0 0 2% 40.75%;
 }
 
 
