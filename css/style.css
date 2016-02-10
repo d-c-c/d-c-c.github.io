@@ -33,21 +33,22 @@
 	display: inline-block;
 }
 
-#social a img {
+.social a img {
 	display: block;
-	margin-top: 1.5%;
 	position: fixed;
-	right: 0;
-	top: 40%;
 	z-index: 1000;
 }
 
 #twitt {
 	padding: 0 1%;
+	right: 0;
+	top: 40%;
 }
 
 #insta {
-	padding: 4% 1% 0;
+	margin: 4% 1% 0;
+	right: 0;
+	top: 42%;
 }
 
 #vid {
@@ -257,13 +258,13 @@ h6 {
     	margin-top: 400px;
     }	
 
-    #social a img {
-	display: block;
-	margin-top: 1.5%;
-	position: fixed;
-	right: 0;
-	top: 40%;
-	z-index: 1000;
+    .social a img {
+		display: block;
+		margin-top: 1.5%;
+		position: fixed;
+		right: 0;
+		top: 40%;
+		z-index: 1000;
 	}
 
 	#twitt {
@@ -287,15 +288,6 @@ h6 {
     .artist {
     	width: 100%;
     }
-
-    #social a img {
-		display: block;
-		margin-top: 1.5%;
-		position: fixed;
-		right: 0;
-		top: 40%;
-		z-index: 1000;
-	}
 
 	#twitt {
 		padding: 0 1%;
